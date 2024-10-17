@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     li.querySelector("button").addEventListener("click", (e) => {
       e.stopPropagation(); //prevent toggle from firing
-      tasks = tasks.filter((t) => t.id === task.id);
+      tasks = tasks.filter((t) => t.id !== task.id);
       li.remove();
       saveTasks();
     });
