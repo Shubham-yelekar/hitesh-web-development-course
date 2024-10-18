@@ -60,6 +60,29 @@ h2 {
   margin-bottom: 20px;
 }
 
+.cart-item {
+  padding: 8px 8px;
+  border-bottom: 1px solid #333333;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.del-btn {
+  background-color: #333333;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  border: #333333;
+  color: white;
+  cursor: pointer;
+}
+.del-btn:hover {
+  background-color: #6200ea;
+}
+
 #cart-total {
   text-align: right;
 }
