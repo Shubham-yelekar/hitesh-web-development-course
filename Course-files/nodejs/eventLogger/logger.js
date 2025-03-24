@@ -21,7 +21,7 @@ logger.on("message", logToFile);
 
 setInterval(() => {
   const memoryUsage = (os.freemem() / os.totalmem()) * 100;
-  logger.log(`Current memory usage: ${memoryUsage.toFixed(2)}`);
+  logger.log(`Current memory usage: ${memoryUsage.toFixed(2)}%`);
 }, 3000);
 
 logger.log("Application started");

@@ -1,8 +1,8 @@
-const http = require("http");
-const fs = require("fs");
+const http = require("http"); // https library
+const fs = require("fs"); // Files Operation module
 const path = require("path");
 
-const port = 3000;
+const port = 6969;
 
 const server = http.createServer((req, res) => {
   const filePath = path.join(
